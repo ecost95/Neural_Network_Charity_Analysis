@@ -24,7 +24,7 @@ The features variables are:
 - ASK_AMT—Funding amount requested
 
 ### What variable(s) are neither targets nor features, and should be removed from the input data?
--We removed the EIN and NAME columns, as these are only used for identification and are not useful for our analysis.
+- We removed the EIN and NAME columns, as these are only used for identification and are not useful for our analysis.
 
 ## Compiling, Training, and Evaluating the Model:
 
@@ -34,7 +34,7 @@ The features variables are:
 ### Were we able to achieve the target model performance?
 - With our first model, target was able to achieve  0.726% accuracy. 
 
-###What steps did we take to try and increase model performance?
+### What steps did we take to try and increase model performance?
 - In our optimization file, we tweaked the model to try to improve out accuracy. To do this we:
 1) removed the "SPECIAL_CONSIDERATIONS" column from our features
 2) added a third hidden layer
@@ -42,4 +42,5 @@ The features variables are:
 
 However, we did not see much of a change in accuracy with these changes (0.725%)
 
-## Summary: The deep learning model was somewhat successful for predicting the success of businesses recieving funcding with over 72% accuracy. For future analysis, we would recomend a more robust dataset and using different activation functions.
+## Summary: 
+The deep learning model was somewhat successful for predicting the success of businesses recieving funcding with over 72% accuracy. For future analysis, we would recomend a more robust dataset and using different activation functions.
