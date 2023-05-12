@@ -43,4 +43,4 @@ The features variables are:
 However, we did not see much of a change in accuracy with these changes (0.725%)
 
 ## Summary: 
-The deep learning model was somewhat successful for predicting the success of businesses recieving funcding with over 72% accuracy. For future analysis, we would recomend a more robust dataset and using different activation functions.
+The deep learning model was somewhat successful for predicting the success of businesses recieving funding with over 72% accuracy. For future analysis, we would recomend a more robust dataset and using different activation functions.
